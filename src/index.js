@@ -7,9 +7,8 @@ import About from "./components/About";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
     <Routes>
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<App />} />
       <Route path="/about" element={<About />} />
     </Routes>
   </BrowserRouter>,
