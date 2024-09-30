@@ -6,12 +6,12 @@ const App = () => {
   return (
     <div>
       <ul>
-        <Link to="/home">
+        <a href="/home">
           <li>Home</li>
-        </Link>
-        <Link to="/about">
+        </a>
+        <a href="/about">
           <li>About</li>
-        </Link>
+        </a>
       </ul>
     </div>
   );
