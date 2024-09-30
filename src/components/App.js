@@ -1,13 +1,20 @@
-
 import React from "react";
-import './../styles/App.css';
+import { Link } from "react-router-dom";
+import "./../styles/App.css";
 
 const App = () => {
   return (
     <div>
-        {/* Do not remove the main div */}
+      <ul>
+        <Link to="/home">
+          <li>Home</li>
+        </Link>
+        <Link to="/about">
+          <li>About</li>
+        </Link>
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
